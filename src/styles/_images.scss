@@ -44,3 +44,10 @@
   @include background-image('delete.svg', 16px, 16px);
   cursor: pointer;
 }
+
+@mixin detail-edit-icon {
+  @include background-image('edit-b.svg', 32px, 32px);
+}
+@mixin detail-del-icon {
+  @include background-image('del-b.svg', 32px, 32px);
+}

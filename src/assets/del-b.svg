@@ -1,0 +1,17 @@
+<svg id="ic_delete" data-name="ic delete" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_20" data-name="Rectangle 20" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5"/>
+      </clipPath>
+    </defs>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="16" cy="16" r="16" fill="#ff6558"/>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(8 8)" clip-path="url(#clip-path)">
+      <g id="trash-2" transform="translate(1.454 0.727)">
+        <path id="Path_21" data-name="Path 21" d="M2.182,4.364H15.273" transform="translate(-2.182 -1.455)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_22" data-name="Path 22" d="M13.818,4.364V14.545A1.455,1.455,0,0,1,12.364,16H5.091a1.455,1.455,0,0,1-1.455-1.455V4.364m2.182,0V2.909A1.455,1.455,0,0,1,7.273,1.455h2.909a1.455,1.455,0,0,1,1.455,1.455V4.364" transform="translate(-2.182 -1.455)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_23" data-name="Path 23" d="M7.273,8v4.364" transform="translate(-2.182 -1.455)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_24" data-name="Path 24" d="M10.182,8v4.364" transform="translate(-2.182 -1.455)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </svg>
+  

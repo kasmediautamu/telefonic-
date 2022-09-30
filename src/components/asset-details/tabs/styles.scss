@@ -1,0 +1,53 @@
+@import '../../../styles/index.scss';
+
+.tabs {
+  &__navigation {
+    .ul {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      list-style: none;
+      padding-top: 5px;
+      border-bottom: 1px solid #d1d5e5;
+      .ul-item {
+        margin-right: 20px;
+        color: #0a213a;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 10px 0;
+        cursor: pointer;
+      }
+
+      .ul-item:last-child {
+        padding-right: 0;
+      }
+      .active {
+        border-bottom: 3px solid #1166fb;
+      }
+    }
+  }
+  .tab-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      min-width: 585px;
+      padding: 15px 0;
+      border-bottom: 1px solid #d1d5e5;
+      .label,
+      .detail {
+        font-size: 15px;
+        font-family: 'Inter';
+        font-weight: 500;
+        text-align: left;
+      }
+    }
+  }
+}

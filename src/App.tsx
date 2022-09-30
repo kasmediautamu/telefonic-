@@ -6,7 +6,8 @@ import AppLoading from './components/spinner'
 const Login = React.lazy(() => import('./containers/login'))
 const AssetManagement = React.lazy(() => import('./containers/asset-management'))
 const UpdateUser = React.lazy(() => import('./containers/update-user'))
-
+const AssetDetails = React.lazy(() => import('./containers/asset-details'))
+const AddAsset = React.lazy(() => import('./containers/add-assets'))
 function App() {
   const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
@@ -45,6 +46,30 @@ function App() {
               <Suspense fallback={<AppLoading />}>
                 <Layout title='Update Profile'>
                   <UpdateUser />
+                </Layout>
+              </Suspense>
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path='/asset-details'
+          element={
+            <PrivateRoute>
+              <Suspense fallback={<AppLoading />}>
+                <Layout title='Asset Details'>
+                  <AssetDetails />
+                </Layout>
+              </Suspense>
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path='/add-asset'
+          element={
+            <PrivateRoute>
+              <Suspense fallback={<AppLoading />}>
+                <Layout title='Add Asset'>
+                  <AddAsset />
                 </Layout>
               </Suspense>
             </PrivateRoute>
