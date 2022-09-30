@@ -1,0 +1,47 @@
+@import '../../styles/index.scss';
+
+.update-user-form {
+  padding: 20px 400px;
+  &__title {
+    border-bottom: 1px solid #d1d5e5;
+    padding: 10px 0 20px 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter';
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    .form-group {
+      padding: 10px 0;
+      label {
+        font-size: 13px;
+        font-family: 'Inter';
+        font-weight: 400;
+      }
+    }
+    &--section-title {
+      border-bottom: 1px solid #d1d5e5;
+      padding: 10px 0 20px 0;
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Inter';
+    }
+    &--action-btns {
+      margin-left: auto;
+      margin-top: 20px;
+      .btn {
+        border-radius: 25px;
+        font-size: 13px;
+      }
+      .btn-default {
+        border: 1px solid #d1d5e5;
+        color: #1166fb;
+        margin-right: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<svg id="ic_search" data-name="ic search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="16" height="16" transform="translate(36 113)" fill="#fff" stroke="#999" stroke-width="1.5"/>
+      </clipPath>
+    </defs>
+    <g id="ic_search-2" data-name="ic search" transform="translate(-36 -113)" clip-path="url(#clip-path)">
+      <g id="search" transform="translate(34.432 111.432)">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.27" cy="6.27" r="6.27" transform="translate(2.351 2.351)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_6" data-name="Path 6" d="M16.459,16.459,13.05,13.05" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </svg>
+  

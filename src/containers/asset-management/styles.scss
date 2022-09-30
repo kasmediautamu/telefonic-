@@ -1,0 +1,13 @@
+.asset-mgt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  &__left {
+    flex-basis: 24%;
+  }
+  &__right {
+    flex-basis: 76%;
+    padding: 15px 30px;
+  }
+}

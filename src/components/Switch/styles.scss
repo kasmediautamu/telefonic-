@@ -1,0 +1,14 @@
+@import '../../styles/index.scss';
+.toggle {
+  cursor: pointer;
+  .active-icon {
+    @include active-toggle-icon;
+    width: 36px;
+    height: 20px;
+  }
+  .inactive-icon {
+    @include inactive-toggle-icon;
+    width: 36px;
+    height: 20px;
+  }
+}

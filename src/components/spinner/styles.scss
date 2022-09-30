@@ -1,0 +1,10 @@
+.tl-app-loading {
+  background-color: #1166fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .tl-circular-split {
+    margin: auto 0;
+  }
+}

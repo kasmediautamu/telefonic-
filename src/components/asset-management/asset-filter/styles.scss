@@ -1,0 +1,103 @@
+@import '../../../styles/index.scss';
+
+.asset-filter {
+  background-color: #f2f4ff;
+  padding: 10px 15px;
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d1d5e5;
+    .title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px;
+      color: #0a213a;
+      padding-left: 30px;
+    }
+    &--left {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .icon {
+        @include funnel-icon;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    &--right {
+      .icon {
+        @include collapse-icon;
+        height: 13.221px;
+        width: 15.131px;
+      }
+    }
+  }
+  .form-group {
+    padding: 10px 0;
+    label {
+      padding-bottom: 10px;
+      font-family: 'Inter';
+      font-size: 15px;
+      font-weight: 400;
+      color: #0a213a;
+    }
+    .input-area {
+      .dropdown-select.gray-bg-dropdown .dropdown-toggle {
+        background: #fff;
+        color: #d1d5e5;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 4px;
+      }
+    }
+  }
+  .only-by-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    .label {
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: #0a213a;
+    }
+  }
+  .created-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .form-group {
+    }
+    .dash {
+      padding: 0 5px;
+    }
+  }
+  .created-date-label {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #0a213a;
+  }
+  .actions {
+    .apply {
+      border-radius: 25px;
+      font-size: 13px;
+      font-family: 'Inter';
+      font-weight: 700;
+    }
+    .btn-transparent {
+      font-size: 13px;
+      font-family: 'Inter';
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+}

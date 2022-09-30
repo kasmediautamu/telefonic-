@@ -1,0 +1,32 @@
+@import '../../styles/index.scss';
+
+.tl-app-header {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d1d5e5;
+  &__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--logo {
+      @include image-logo-sm;
+      width: 157px;
+      height: 40px;
+    }
+    &--separator {
+      margin: 0 30px;
+      width: 1px;
+      background-color: #d1d5e5;
+      height: 40px;
+    }
+    &--title {
+      color: #031a34;
+      font-size: 22px;
+      font-family: 'Inter';
+      font-weight: 400;
+    }
+  }
+}

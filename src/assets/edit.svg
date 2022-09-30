@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="16" height="16" fill="#fff" stroke="#1166fb" stroke-width="1.5"/>
+      </clipPath>
+    </defs>
+    <g id="ic_pen" data-name="ic pen" clip-path="url(#clip-path)">
+      <g id="edit-3" transform="translate(0.8 1.151)">
+        <path id="Path_19" data-name="Path 19" d="M9.6,16h7.2" transform="translate(-2.4 -2.303)" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_20" data-name="Path 20" d="M13.2,2.8a1.7,1.7,0,1,1,2.4,2.4l-10,10L2.4,16l.8-3.2Z" transform="translate(-2.4 -2.303)" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </svg>
+  

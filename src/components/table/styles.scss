@@ -1,0 +1,67 @@
+@import '../../styles/index.scss';
+.tl-app-table {
+  &__table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .input-group > .input-group-text {
+      @include search-icon;
+    }
+
+    &--right {
+      .btn-border-radius {
+        border-radius: 25px;
+        color: #fff;
+      }
+    }
+  }
+  &__table {
+    display: table;
+    padding: 5px;
+    width: 100%;
+    .tr {
+      display: table-row;
+      padding: 5px;
+    }
+    .tr:nth-of-type(1) {
+      .td {
+        border-bottom: 2px solid #ddd;
+      }
+    }
+    .td {
+      @include font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: calc(12 / 17);
+      color: #0a213a;
+      word-break: none;
+      display: table-cell;
+      padding: 20px 10px;
+      margin: 5px;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .td > .tl-table-mgt-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .edit-action {
+      @include edit-icon;
+      width: 16px;
+      height: 16px;
+    }
+    .del-action {
+      @include delete-icon;
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .load-more {
+    font-size: 13px;
+    font-weight: 500;
+    color: #999999;
+    padding: 20px 0;
+  }
+}
