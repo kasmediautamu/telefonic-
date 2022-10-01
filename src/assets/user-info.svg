@@ -1,0 +1,14 @@
+<svg id="ic_user" data-name="ic user" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_85" data-name="Rectangle 85" width="16" height="16" transform="translate(2662 3730)" fill="#fff" stroke="#1166fb" stroke-width="1"/>
+      </clipPath>
+    </defs>
+    <g id="ic_user-2" data-name="ic user" transform="translate(-2662 -3730)" clip-path="url(#clip-path)">
+      <g id="user" transform="translate(2660.4 3728.4)">
+        <path id="Path_29" data-name="Path 29" d="M16,16.8V15.2A3.2,3.2,0,0,0,12.8,12H6.4a3.2,3.2,0,0,0-3.2,3.2v1.6" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="3.2" cy="3.2" r="3.2" transform="translate(6.4 2.4)" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      </g>
+    </g>
+  </svg>
+  

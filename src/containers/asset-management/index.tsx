@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import AssetFilter from '../../components/asset-management/asset-filter'
-import Table from '../../components/table'
+import AppLoading from '../../components/spinner'
+const AssetTable = React.lazy(() => import('../../components/asset-management/assets-table'))
+
 import './styles.scss'
 
 export default function AssetManagement() {
@@ -10,7 +12,9 @@ export default function AssetManagement() {
         <AssetFilter />
       </div>
       <div className='asset-mgt__right'>
-        <Table />
+        <Suspense fallback={<AppLoading />}>
+          <AssetTable />
+        </Suspense>
       </div>
     </div>
   )

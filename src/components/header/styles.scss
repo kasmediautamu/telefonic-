@@ -29,4 +29,40 @@
       font-weight: 400;
     }
   }
+  &__right {
+    .nav-item,
+    .dropdown {
+      .dropdown-toggle::after {
+        display: none;
+      }
+      .dropdown-meu,
+      .show {
+        .dropdown-item {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          font-size: 13px;
+          font-weight: 500;
+          .update-icon {
+            height: 16px;
+            width: 16px;
+            @include update-user-icon;
+            margin-right: 5px;
+          }
+          .mgt-icon {
+            height: 16px;
+            width: 16px;
+            @include usermgt-icon;
+            margin-right: 5px;
+          }
+          .logout-icon {
+            height: 16px;
+            width: 16px;
+            @include logout-icon;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -3,11 +3,13 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import PrivateRoute from './components/authentication/private'
 import Layout from './components/lay-out'
 import AppLoading from './components/spinner'
+
 const Login = React.lazy(() => import('./containers/login'))
 const AssetManagement = React.lazy(() => import('./containers/asset-management'))
 const UpdateUser = React.lazy(() => import('./containers/update-user'))
 const AssetDetails = React.lazy(() => import('./containers/asset-details'))
 const AddAsset = React.lazy(() => import('./containers/add-assets'))
+const UserManagement = React.lazy(() => import('./containers/user-management'))
 function App() {
   const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
@@ -70,6 +72,18 @@ function App() {
               <Suspense fallback={<AppLoading />}>
                 <Layout title='Add Asset'>
                   <AddAsset />
+                </Layout>
+              </Suspense>
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path='/user-management'
+          element={
+            <PrivateRoute>
+              <Suspense fallback={<AppLoading />}>
+                <Layout title='User Management'>
+                  <UserManagement />
                 </Layout>
               </Suspense>
             </PrivateRoute>

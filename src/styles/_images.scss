@@ -51,3 +51,13 @@
 @mixin detail-del-icon {
   @include background-image('del-b.svg', 32px, 32px);
 }
+
+@mixin update-user-icon {
+  @include background-image('user-info.svg', 16px, 16px);
+}
+@mixin logout-icon {
+  @include background-image('logout.svg', 16px, 16px);
+}
+@mixin usermgt-icon {
+  @include background-image('usermgt.svg', 16px, 16px);
+}

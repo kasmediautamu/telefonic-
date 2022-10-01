@@ -1,0 +1,16 @@
+<svg id="ic_user_managment" data-name="ic user managment" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_86" data-name="Rectangle 86" width="16" height="16" transform="translate(2662 3757)" fill="#fff" stroke="#1166fb" stroke-width="1"/>
+      </clipPath>
+    </defs>
+    <g id="ic_user_managment-2" data-name="ic user managment" transform="translate(-2662 -3757)" clip-path="url(#clip-path)">
+      <g id="users" transform="translate(2662 3757.029)">
+        <path id="Path_30" data-name="Path 30" d="M11.333,14V12.667A2.667,2.667,0,0,0,8.667,10H3.333A2.667,2.667,0,0,0,.667,12.667V14" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="2.667" cy="2.667" r="2.667" transform="translate(3.333 2)" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+        <path id="Path_31" data-name="Path 31" d="M15.333,14V12.667a2.667,2.667,0,0,0-2-2.58" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+        <path id="Path_32" data-name="Path 32" d="M10.667,2.087a2.667,2.667,0,0,1,0,5.167" fill="none" stroke="#1166fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+      </g>
+    </g>
+  </svg>
+  
